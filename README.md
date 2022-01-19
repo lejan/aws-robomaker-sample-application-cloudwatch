@@ -1,4 +1,9 @@
-# AWS RoboMaker Sample Application - CloudWatch Monitoring
+| One    | Two | Three | Four    | Five  | Six |
+|-|-|-|-|-|-|
+| Span <td colspan=3>triple  <td colspan=2>double
+| 1 | 2 | 3 | 4 | 5 | 6 |
+   
+   # AWS RoboMaker Sample Application - CloudWatch Monitoring
 
 Monitor health and operational metrics for a fleet of robots in a simulated home using AWS CloudWatch Metrics and AWS CloudWatch Logs. Streamed metrics include speed, distance to nearest obstacle, distance to current goal, robot CPU utilization, and RAM usage.
 
@@ -289,7 +294,4 @@ MIT-0 - See LICENSE for further information
 
 Create issues and pull requests against this Repository on Github
 
-| One    | Two | Three | Four    | Five  | Six |
-|-|-|-|-|-|-|
-| Span <td colspan=3>triple  <td colspan=2>double |
-| 1 | 2 | 3 | 4 | 5 | 6 |
+
