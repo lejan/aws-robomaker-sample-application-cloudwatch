@@ -288,3 +288,8 @@ MIT-0 - See LICENSE for further information
 ## How to Contribute
 
 Create issues and pull requests against this Repository on Github
+
+| One    | Two | Three | Four    | Five  | Six |
+|-|-|-|-|-|-|
+| Span <td colspan=3>triple  <td colspan=2>double |
+| 1 | 2 | 3 | 4 | 5 | 6 |
