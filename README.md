@@ -1,9 +1,18 @@
-|\2. spans two cols |
-| col 1 | col 2 |
-
-|/3. spans 3 rows | row a |
-| row b |
-| row c |
+<table>
+    <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+    </tr>
+    <tr>
+        <td colspan="2">span 2 cols</td>
+        <td rowspan="2">span 2 rows</td>
+    </tr>
+    <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+    </tr>
+</table>​
    
    # AWS RoboMaker Sample Application - CloudWatch Monitoring
 
