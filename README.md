@@ -4,10 +4,10 @@
         <th colspan="3">OUTPUTS</th>
     </tr>
     <tr>
-        <th colspan="1">batch_response</th>
+        <th >batch_response</th>
         <th colspan="2">batch_log</th>
         <th colspan="2">output</th>
-        <th colspan="1" rowspan="1">Cancel sim job batch?</th>
+        <th rowspan="2">Cancel sim job batch?</th>
     </tr>
     <tr>
         <th >"status"</th>
