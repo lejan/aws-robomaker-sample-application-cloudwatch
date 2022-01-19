@@ -1,12 +1,12 @@
 <table>
     <tr>
-        <td colspan="3">INPUT ARGUMENTS</td>
-        <td colspan="3">OUTPUTS</td>
+        <th colspan="3">INPUT ARGUMENTS</td>
+        <th colspan="3">OUTPUTS</td>
     </tr>
     <tr>
         <th>batch_response</th>
-        <td rowspan="2">batch_log</td>
-        <td rowspan="2">output</td>
+        <th rowspan="2">batch_log</th>
+        <th rowspan="2">output</th>
         <th>Cancel sim job batch?</th>
     </tr>
     <tr>
