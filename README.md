@@ -1,20 +1,80 @@
 <table>
     <tr>
-        <th colspan="3">INPUT ARGUMENTS</td>
-        <th colspan="3">OUTPUTS</td>
+        <th colspan="3">INPUT ARGUMENTS</th>
+        <th colspan="3">OUTPUTS</th>
     </tr>
     <tr>
-        <th>batch_response</th>
-        <th rowspan="2">batch_log</th>
-        <th rowspan="2">output</th>
-        <th>Cancel sim job batch?</th>
+        <th colspan="1">batch_response</th>
+        <th colspan="2">batch_log</th>
+        <th colspan="2">output</th>
+        <th colspan="1" rowspan="1">Cancel sim job batch?</th>
     </tr>
     <tr>
-        <th>"status"</th>
-        <th>"status"</th>
-        <th>"failed_request"</th>
-        <th>"isDone"</th>
-        <th>"status"</th>
+        <th >"status"</th>
+        <th >"status"</th>
+        <th >"failed_requests"</th>
+        <th >"isDone"</th>
+        <th >"status"</th>
+    </tr>
+    <tr>
+        <td >"Failed"</td>
+        <td >“InProgress”/”Completed”</td>
+        <td >0 / Not 0</td>
+        <td >TRUE</td>
+        <td >"Failed"</td>
+        <td >no</td>
+    </tr>
+    <tr>
+        <td rowspan="3">“Canceled”, “TimedOut”, “Completed”</td>
+        <td >“InProgress”</td>
+        <td >0 / Not 0</td>
+        <td >TRUE</td>
+        <td >"Failed"</td>
+        <td >no</td>
+    </tr>
+    <tr>
+        <td >“Completed”</td>
+        <td >0</td>
+        <td >TRUE</td>
+        <td >"Successd"</td>
+        <td >no</td>
+    </tr>
+    <tr>
+        <td >“Completed”</td>
+        <td >Not 0</td>
+        <td >TRUE</td>
+        <td >"Failed"</td>
+        <td >no</td>
+    </tr>
+    <tr>
+        <td rowspan="3">“InProgress”</td>
+        <td >“InProgress”</td>
+        <td >0 / Not 0</td>
+        <td >FALSE</td>
+        <td >"InProgress"</td>
+        <td >no</td>
+    </tr>
+    <tr>
+        <td >“Completed”</td>
+        <td >0</td>
+        <td >TRUE</td>
+        <td >"Success"</td>
+        <td >yes</td>
+    </tr>
+    <tr>
+        <td >“Completed”</td>
+        <td >Not 0</td>
+        <td >TRUE</td>
+        <td >"Failed"</td>
+        <td >yes</td>
+    </tr>
+    <tr>
+    	<td >...other...</td>
+        <td >“InProgress”/”Completed”</td>
+        <td >0 / Not 0</td>
+        <td >TRUE</td>
+        <td >"Failed"</td>
+        <td >no</td>
     </tr>
 </table>
    
