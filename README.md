@@ -1,4 +1,4 @@
-| One    | Two | Three |
+| One     | Three |
 |---|---|---|
 |1|2|3|
    
