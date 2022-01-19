@@ -1,18 +1,22 @@
 <table>
     <tr>
-        <th>Col 1</th>
-        <th>Col 2</th>
-        <th>Col 3</th>
+        <td colspan="3">INPUT ARGUMENTS</td>
+        <td colspan="3">OUTPUTS</td>
     </tr>
     <tr>
-        <td colspan="2">span 2 cols</td>
-        <td rowspan="2">span 2 rows</td>
+        <th>batch_response</th>
+        <td rowspan="2">batch_log</td>
+        <td rowspan="2">output</td>
+        <th>Cancel sim job batch?</th>
     </tr>
     <tr>
-        <td>stuff</td>
-        <td>stuff</td>
+        <th>"status"</th>
+        <th>"status"</th>
+        <th>"failed_request"</th>
+        <th>"isDone"</th>
+        <th>"status"</th>
     </tr>
-</table>​
+</table>
    
    # AWS RoboMaker Sample Application - CloudWatch Monitoring
 
