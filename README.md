@@ -1,6 +1,6 @@
-One    | Two | Three | Four    | Five  | Six
--|||||-
-Span <td colspan=3>triple  <td colspan=2>double
+| One    | Two | Three |
+|---|---|---|
+|1|2|3|
    
    # AWS RoboMaker Sample Application - CloudWatch Monitoring
 
