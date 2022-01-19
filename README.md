@@ -1,6 +1,11 @@
-| <td colspan=2>One Three |
-|---|---|---|
-|1|2|3|
+|\2. spans two cols |
+| col 1 | col 2 |
+
+A forward slash / is used for a row span.
+
+|/3. spans 3 rows | row a |
+| row b |
+| row c |
    
    # AWS RoboMaker Sample Application - CloudWatch Monitoring
 
