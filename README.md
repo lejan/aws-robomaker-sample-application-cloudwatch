@@ -1,4 +1,4 @@
-| <td colspan=2>One | Three |
+| <td colspan=2>One Three |
 |---|---|---|
 |1|2|3|
    
