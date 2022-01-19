@@ -33,14 +33,13 @@
         <td >no</td>
     </tr>
     <tr>
-        <td >“Completed”</td>
+        <td rowspan="2">“Completed”</td>
         <td >0</td>
         <td >TRUE</td>
-        <td >"Successd"</td>
+        <td >"Success"</td>
         <td >no</td>
     </tr>
     <tr>
-        <td >“Completed”</td>
         <td >Not 0</td>
         <td >TRUE</td>
         <td >"Failed"</td>
@@ -55,14 +54,13 @@
         <td >no</td>
     </tr>
     <tr>
-        <td >“Completed”</td>
+        <td rowspan="2">“Completed”</td>
         <td >0</td>
         <td >TRUE</td>
         <td >"Success"</td>
         <td >yes</td>
     </tr>
     <tr>
-        <td >“Completed”</td>
         <td >Not 0</td>
         <td >TRUE</td>
         <td >"Failed"</td>
